@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document connector="deezerAPI" context="studio_helloWorld:C:deezerAPI" contextId="studio_helloWorld:C:deezerAPI" fromStub="false" fromcache="false" generated="Wed Oct 24 20:25:32 CET 2018" project="helloWorld" sequence="" signature="1540409132977" transaction="JSON_HTTP_transaction" version="7.5.3 (build 44890)">
+    <object type="object">
+        <data length="25" type="array">
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/76551542/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">76551542</id>
+                    <title type="string">Oriental Sensations, vol. 2</title>
+                    <tracklist type="string">https://api.deezer.com/album/76551542/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">323</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">573394392</id>
+                <link type="string">https://www.deezer.com/track/573394392</link>
+                <preview type="string">https://cdns-preview-6.dzcdn.net/stream/c-627c6bbc6583f4c1225136e4bed08876-3.mp3</preview>
+                <rank type="integer">512871</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Douni el bladi</title>
+                <title_short type="string">Douni el bladi</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/76551542/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">76551542</id>
+                    <title type="string">Oriental Sensations, vol. 2</title>
+                    <tracklist type="string">https://api.deezer.com/album/76551542/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">230</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">573394402</id>
+                <link type="string">https://www.deezer.com/track/573394402</link>
+                <preview type="string">https://cdns-preview-a.dzcdn.net/stream/c-a6f104d074f68cb588494c046f4e98f2-2.mp3</preview>
+                <rank type="integer">512871</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Mama</title>
+                <title_short type="string">Mama</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/76551542/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">76551542</id>
+                    <title type="string">Oriental Sensations, vol. 2</title>
+                    <tracklist type="string">https://api.deezer.com/album/76551542/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">254</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">573394412</id>
+                <link type="string">https://www.deezer.com/track/573394412</link>
+                <preview type="string">https://cdns-preview-b.dzcdn.net/stream/c-bc40064cb08cdc7a7c4f00bbd1464050-2.mp3</preview>
+                <rank type="integer">512871</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Haoulou</title>
+                <title_short type="string">Haoulou</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/76551542/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/a263e915ee712d9088b7a9ae1ad4103f/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">76551542</id>
+                    <title type="string">Oriental Sensations, vol. 2</title>
+                    <tracklist type="string">https://api.deezer.com/album/76551542/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">206</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">573394422</id>
+                <link type="string">https://www.deezer.com/track/573394422</link>
+                <preview type="string">https://cdns-preview-3.dzcdn.net/stream/c-3914ad2ad3978fcf36d4977f45f71dda-2.mp3</preview>
+                <rank type="integer">512871</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Bladi el Djazair</title>
+                <title_short type="string">Bladi el Djazair</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/76596982/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/3531ae8309fbe13bece5acfc6496a147/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/3531ae8309fbe13bece5acfc6496a147/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/3531ae8309fbe13bece5acfc6496a147/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/3531ae8309fbe13bece5acfc6496a147/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">76596982</id>
+                    <title type="string">Escale raï, vol. 2</title>
+                    <tracklist type="string">https://api.deezer.com/album/76596982/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">360</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">573734872</id>
+                <link type="string">https://www.deezer.com/track/573734872</link>
+                <preview type="string">https://cdns-preview-d.dzcdn.net/stream/c-d3922561730fc7dd52bc0d3e8c8d58c2-2.mp3</preview>
+                <rank type="integer">512871</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Wahran Wahran</title>
+                <title_short type="string">Wahran Wahran</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/11030894/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">11030894</id>
+                    <title type="string">Best Of</title>
+                    <tracklist type="string">https://api.deezer.com/album/11030894/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">297</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">105852768</id>
+                <link type="string">https://www.deezer.com/track/105852768</link>
+                <preview type="string">https://cdns-preview-b.dzcdn.net/stream/c-bad0ef97c83cabefcac5b5b2dc6f9e79-1.mp3</preview>
+                <rank type="integer">176839</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Zazr khatri</title>
+                <title_short type="string">Zazr khatri</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/12819804/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/19c992773fe56dc02395c558be3685c3/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/19c992773fe56dc02395c558be3685c3/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/19c992773fe56dc02395c558be3685c3/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/19c992773fe56dc02395c558be3685c3/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">12819804</id>
+                    <title type="string">Le prince du raï [Original Masters]</title>
+                    <tracklist type="string">https://api.deezer.com/album/12819804/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">310</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">122507518</id>
+                <link type="string">https://www.deezer.com/track/122507518</link>
+                <preview type="string">https://cdns-preview-8.dzcdn.net/stream/c-81d0de703d438bd2ca9b34708a6f8085-5.mp3</preview>
+                <rank type="integer">54062</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Ma Tebkich</title>
+                <title_short type="string">Ma Tebkich</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/247629/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/316afdaed93c4a18cf730389648d03d6/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/316afdaed93c4a18cf730389648d03d6/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/316afdaed93c4a18cf730389648d03d6/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/316afdaed93c4a18cf730389648d03d6/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">247629</id>
+                    <title type="string">The Very Best Of Sting And The Police</title>
+                    <tracklist type="string">https://api.deezer.com/album/247629/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">368</id>
+                    <link type="string">https://www.deezer.com/artist/368</link>
+                    <name type="string">Sting</name>
+                    <picture type="string">https://api.deezer.com/artist/368/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/3fe55f971cd47cb0be73bbd71fe1be2f/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/3fe55f971cd47cb0be73bbd71fe1be2f/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/3fe55f971cd47cb0be73bbd71fe1be2f/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/3fe55f971cd47cb0be73bbd71fe1be2f/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/368/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">286</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">2525873</id>
+                <link type="string">https://www.deezer.com/track/2525873</link>
+                <preview type="string">https://cdns-preview-4.dzcdn.net/stream/c-4edca5068bb6820aef6ce2a9918a9575-8.mp3</preview>
+                <rank type="integer">709216</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Desert Rose</title>
+                <title_short type="string">Desert Rose</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/11030894/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">11030894</id>
+                    <title type="string">Best Of</title>
+                    <tracklist type="string">https://api.deezer.com/album/11030894/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">273</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">105852752</id>
+                <link type="string">https://www.deezer.com/track/105852752</link>
+                <preview type="string">https://cdns-preview-a.dzcdn.net/stream/c-a32cd9a9b04692a7ef8b268ef66bf234-2.mp3</preview>
+                <rank type="integer">307202</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Lazrag saani</title>
+                <title_short type="string">Lazrag saani</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/11030894/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">11030894</id>
+                    <title type="string">Best Of</title>
+                    <tracklist type="string">https://api.deezer.com/album/11030894/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">342</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">105852750</id>
+                <link type="string">https://www.deezer.com/track/105852750</link>
+                <preview type="string">https://cdns-preview-8.dzcdn.net/stream/c-8d458f58ec3e4a8bc0d7045aa8adcbaa-1.mp3</preview>
+                <rank type="integer">176366</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Sehrane ouahdi</title>
+                <title_short type="string">Sehrane ouahdi</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/67525892/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/40fd71157783c4374eddb424d3b0c4a9/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/40fd71157783c4374eddb424d3b0c4a9/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/40fd71157783c4374eddb424d3b0c4a9/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/40fd71157783c4374eddb424d3b0c4a9/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">67525892</id>
+                    <title type="string">Cheb Mami vs Cheb Khaled, vol. 2</title>
+                    <tracklist type="string">https://api.deezer.com/album/67525892/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">254</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">523511622</id>
+                <link type="string">https://www.deezer.com/track/523511622</link>
+                <preview type="string">https://cdns-preview-b.dzcdn.net/stream/c-bc40064cb08cdc7a7c4f00bbd1464050-2.mp3</preview>
+                <rank type="integer">227674</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Haoulou</title>
+                <title_short type="string">Haoulou</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/11030894/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">11030894</id>
+                    <title type="string">Best Of</title>
+                    <tracklist type="string">https://api.deezer.com/album/11030894/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">300</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">105852748</id>
+                <link type="string">https://www.deezer.com/track/105852748</link>
+                <preview type="string">https://cdns-preview-4.dzcdn.net/stream/c-429e81484dc49bbcb089f9b1d6ec41ac-1.mp3</preview>
+                <rank type="integer">103710</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Hadi kassa</title>
+                <title_short type="string">Hadi kassa</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/7828846/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/2d2cc95ed4b3dafb062d8a0e2b892497/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/2d2cc95ed4b3dafb062d8a0e2b892497/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/2d2cc95ed4b3dafb062d8a0e2b892497/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/2d2cc95ed4b3dafb062d8a0e2b892497/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">7828846</id>
+                    <title type="string">Algeria to Brazil (22 titres originaux)</title>
+                    <tracklist type="string">https://api.deezer.com/album/7828846/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">204</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">78716664</id>
+                <link type="string">https://www.deezer.com/track/78716664</link>
+                <preview type="string">https://cdns-preview-3.dzcdn.net/stream/c-33cb4a0e6ad442ac29f388620ac9f63e-1.mp3</preview>
+                <rank type="integer">188293</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Bladi hiya el Djazair</title>
+                <title_short type="string">Bladi hiya el Djazair</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/11030894/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">11030894</id>
+                    <title type="string">Best Of</title>
+                    <tracklist type="string">https://api.deezer.com/album/11030894/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">245</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">105852746</id>
+                <link type="string">https://www.deezer.com/track/105852746</link>
+                <preview type="string">https://cdns-preview-9.dzcdn.net/stream/c-9697285130f29a0fbcb494a4f5e553c8-2.mp3</preview>
+                <rank type="integer">141748</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Dertfik confiance</title>
+                <title_short type="string">Dertfik confiance</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/299109/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/af5a39f2ffeeb7e3fdf96e068914512f/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/af5a39f2ffeeb7e3fdf96e068914512f/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/af5a39f2ffeeb7e3fdf96e068914512f/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/af5a39f2ffeeb7e3fdf96e068914512f/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">299109</id>
+                    <title type="string">Le Best Of</title>
+                    <tracklist type="string">https://api.deezer.com/album/299109/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">211</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">3088070</id>
+                <link type="string">https://www.deezer.com/track/3088070</link>
+                <preview type="string">https://cdns-preview-7.dzcdn.net/stream/c-7f11c4eac12b7ed25272e6efdaeb74dc-3.mp3</preview>
+                <rank type="integer">550149</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Parisien du nord</title>
+                <title_short type="string">Parisien du nord</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/1588780/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/cd5da7c533f7bcd5f0072dfeac64b31b/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/cd5da7c533f7bcd5f0072dfeac64b31b/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/cd5da7c533f7bcd5f0072dfeac64b31b/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/cd5da7c533f7bcd5f0072dfeac64b31b/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">1588780</id>
+                    <title type="string">Planete Rai: Le meilleur du Rai</title>
+                    <tracklist type="string">https://api.deezer.com/album/1588780/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">231</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">16988697</id>
+                <link type="string">https://www.deezer.com/track/16988697</link>
+                <preview type="string">https://cdns-preview-c.dzcdn.net/stream/c-cffd9ac55380e6c8f82b41b5d199c04f-6.mp3</preview>
+                <rank type="integer">107370</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Let Me Cry</title>
+                <title_short type="string">Let Me Cry</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/67525892/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/40fd71157783c4374eddb424d3b0c4a9/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/40fd71157783c4374eddb424d3b0c4a9/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/40fd71157783c4374eddb424d3b0c4a9/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/40fd71157783c4374eddb424d3b0c4a9/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">67525892</id>
+                    <title type="string">Cheb Mami vs Cheb Khaled, vol. 2</title>
+                    <tracklist type="string">https://api.deezer.com/album/67525892/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">323</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">523511652</id>
+                <link type="string">https://www.deezer.com/track/523511652</link>
+                <preview type="string">https://cdns-preview-6.dzcdn.net/stream/c-627c6bbc6583f4c1225136e4bed08876-3.mp3</preview>
+                <rank type="integer">215570</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Douni el bladi</title>
+                <title_short type="string">Douni el bladi</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/12295894/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/a53cc0ebe36c5b44b213d3f59ce56620/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/a53cc0ebe36c5b44b213d3f59ce56620/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/a53cc0ebe36c5b44b213d3f59ce56620/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/a53cc0ebe36c5b44b213d3f59ce56620/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">12295894</id>
+                    <title type="string">L'anthologie du Raï (50 titres)</title>
+                    <tracklist type="string">https://api.deezer.com/album/12295894/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">194</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">118323970</id>
+                <link type="string">https://www.deezer.com/track/118323970</link>
+                <preview type="string">https://cdns-preview-7.dzcdn.net/stream/c-74af219d00aed6c834dd91d3874ec3ff-2.mp3</preview>
+                <rank type="integer">104010</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Bent colonel</title>
+                <title_short type="string">Bent colonel</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/67524642/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/4912bc6a82f62193558fcb519ba05d59/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/4912bc6a82f62193558fcb519ba05d59/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/4912bc6a82f62193558fcb519ba05d59/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/4912bc6a82f62193558fcb519ba05d59/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">67524642</id>
+                    <title type="string">Cheb Mami vs Cheb Khaled, vol. 1</title>
+                    <tracklist type="string">https://api.deezer.com/album/67524642/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">75354</id>
+                    <link type="string">https://www.deezer.com/artist/75354</link>
+                    <name type="string">Khaled</name>
+                    <picture type="string">https://api.deezer.com/artist/75354/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/e8850368f25a940ba63ba7830e2092bd/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/e8850368f25a940ba63ba7830e2092bd/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/e8850368f25a940ba63ba7830e2092bd/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/e8850368f25a940ba63ba7830e2092bd/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/75354/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">232</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">523504882</id>
+                <link type="string">https://www.deezer.com/track/523504882</link>
+                <preview type="string">https://cdns-preview-8.dzcdn.net/stream/c-83f6bb66a515e902295a075e940c87d8-2.mp3</preview>
+                <rank type="integer">256220</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Moule el koutche</title>
+                <title_short type="string">Moule el koutche</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/11030894/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/6aab520db70a98d0e394489969129860/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">11030894</id>
+                    <title type="string">Best Of</title>
+                    <tracklist type="string">https://api.deezer.com/album/11030894/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">283</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">105852764</id>
+                <link type="string">https://www.deezer.com/track/105852764</link>
+                <preview type="string">https://cdns-preview-1.dzcdn.net/stream/c-18534f9e31915196406d708ab2521911-1.mp3</preview>
+                <rank type="integer">326594</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Ana mazel</title>
+                <title_short type="string">Ana mazel</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/67524642/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/4912bc6a82f62193558fcb519ba05d59/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/4912bc6a82f62193558fcb519ba05d59/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/4912bc6a82f62193558fcb519ba05d59/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/4912bc6a82f62193558fcb519ba05d59/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">67524642</id>
+                    <title type="string">Cheb Mami vs Cheb Khaled, vol. 1</title>
+                    <tracklist type="string">https://api.deezer.com/album/67524642/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">75354</id>
+                    <link type="string">https://www.deezer.com/artist/75354</link>
+                    <name type="string">Khaled</name>
+                    <picture type="string">https://api.deezer.com/artist/75354/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/e8850368f25a940ba63ba7830e2092bd/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/e8850368f25a940ba63ba7830e2092bd/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/e8850368f25a940ba63ba7830e2092bd/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/e8850368f25a940ba63ba7830e2092bd/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/75354/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">185</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">523504842</id>
+                <link type="string">https://www.deezer.com/track/523504842</link>
+                <preview type="string">https://cdns-preview-3.dzcdn.net/stream/c-3ad692d500f1d49b1b237e2a13ca5f3c-3.mp3</preview>
+                <rank type="integer">337393</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Chaba bent bladi</title>
+                <title_short type="string">Chaba bent bladi</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/64965072/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/3c3c203ae0b11de0538a9356a8f5c971/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/3c3c203ae0b11de0538a9356a8f5c971/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/3c3c203ae0b11de0538a9356a8f5c971/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/3c3c203ae0b11de0538a9356a8f5c971/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">64965072</id>
+                    <title type="string">Délice Paloma (Bande originale du film)</title>
+                    <tracklist type="string">https://api.deezer.com/album/64965072/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">257</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">507984942</id>
+                <link type="string">https://www.deezer.com/track/507984942</link>
+                <preview type="string">https://cdns-preview-f.dzcdn.net/stream/c-f9c2a48230e1e87c139d8653cd09919b-5.mp3</preview>
+                <rank type="integer">238537</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Youm Wara Youm</title>
+                <title_short type="string">Youm Wara Youm</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/12819804/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/19c992773fe56dc02395c558be3685c3/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/19c992773fe56dc02395c558be3685c3/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/19c992773fe56dc02395c558be3685c3/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/19c992773fe56dc02395c558be3685c3/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">12819804</id>
+                    <title type="string">Le prince du raï [Original Masters]</title>
+                    <tracklist type="string">https://api.deezer.com/album/12819804/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">280</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">122507492</id>
+                <link type="string">https://www.deezer.com/track/122507492</link>
+                <preview type="string">https://cdns-preview-3.dzcdn.net/stream/c-332c6d45bd78e44b498bedcc528e7bf1-4.mp3</preview>
+                <rank type="integer">244569</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Ouach Etsalini</title>
+                <title_short type="string">Ouach Etsalini</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/61907292/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/dd1b0a4b71adf9d89d658cabe2535556/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/dd1b0a4b71adf9d89d658cabe2535556/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/dd1b0a4b71adf9d89d658cabe2535556/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/dd1b0a4b71adf9d89d658cabe2535556/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">61907292</id>
+                    <title type="string">The Very Best Of Cheb Mami</title>
+                    <tracklist type="string">https://api.deezer.com/album/61907292/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">485</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">489945202</id>
+                <link type="string">https://www.deezer.com/track/489945202</link>
+                <preview type="string">https://cdns-preview-8.dzcdn.net/stream/c-8583e5db192b7c6abc3553328144a5da-2.mp3</preview>
+                <rank type="integer">179308</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Manetzouatchi</title>
+                <title_short type="string">Manetzouatchi</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+            <object type="object">
+                <album type="object">
+                    <cover type="string">https://api.deezer.com/album/15288493/image</cover>
+                    <cover_big type="string">https://e-cdns-images.dzcdn.net/images/cover/f00761593a756890e52914c54d86a17d/500x500-000000-80-0-0.jpg</cover_big>
+                    <cover_medium type="string">https://e-cdns-images.dzcdn.net/images/cover/f00761593a756890e52914c54d86a17d/250x250-000000-80-0-0.jpg</cover_medium>
+                    <cover_small type="string">https://e-cdns-images.dzcdn.net/images/cover/f00761593a756890e52914c54d86a17d/56x56-000000-80-0-0.jpg</cover_small>
+                    <cover_xl type="string">https://e-cdns-images.dzcdn.net/images/cover/f00761593a756890e52914c54d86a17d/1000x1000-000000-80-0-0.jpg</cover_xl>
+                    <id type="integer">15288493</id>
+                    <title type="string">100% arabica (Bande originale du film)</title>
+                    <tracklist type="string">https://api.deezer.com/album/15288493/tracks</tracklist>
+                    <type type="string">album</type>
+                </album>
+                <artist type="object">
+                    <id type="integer">995</id>
+                    <link type="string">https://www.deezer.com/artist/995</link>
+                    <name type="string">Cheb Mami</name>
+                    <picture type="string">https://api.deezer.com/artist/995/image</picture>
+                    <picture_big type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/500x500-000000-80-0-0.jpg</picture_big>
+                    <picture_medium type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/250x250-000000-80-0-0.jpg</picture_medium>
+                    <picture_small type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/56x56-000000-80-0-0.jpg</picture_small>
+                    <picture_xl type="string">https://e-cdns-images.dzcdn.net/images/artist/6fd3f861ea36fcaef637759912ab6bde/1000x1000-000000-80-0-0.jpg</picture_xl>
+                    <tracklist type="string">https://api.deezer.com/artist/995/top?limit=50</tracklist>
+                    <type type="string">artist</type>
+                </artist>
+                <duration type="integer">259</duration>
+                <explicit_lyrics type="boolean">false</explicit_lyrics>
+                <id type="integer">141590841</id>
+                <link type="string">https://www.deezer.com/track/141590841</link>
+                <preview type="string">https://cdns-preview-f.dzcdn.net/stream/c-f36af3ec9089ac1767606cb3c1eef6e9-3.mp3</preview>
+                <rank type="integer">149743</rank>
+                <readable type="boolean">true</readable>
+                <title type="string">Douha alia</title>
+                <title_short type="string">Douha alia</title_short>
+                <title_version type="string"/>
+                <type type="string">track</type>
+            </object>
+        </data>
+        <next type="string">https://api.deezer.com/search?redirect_uri=http%253A%252F%252Fguardian.mashape.com%252Fcallback&amp;q=Cheb%2BMami&amp;index=25</next>
+        <total type="integer">300</total>
+    </object>
+</document>
+<!--
+Generated by Convertigo Enterprise Mobility Server
+Requester: InternalRequester
+-->
