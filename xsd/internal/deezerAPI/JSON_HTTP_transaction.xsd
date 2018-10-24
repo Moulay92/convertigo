@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:helloWorld_ns="http://www.convertigo.com/convertigo/projects/helloWorld" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.convertigo.com/convertigo/projects/helloWorld">
+    <xsd:element name="deezerAPI__JSON_HTTP_transaction" type="helloWorld_ns:deezerAPI__JSON_HTTP_transactionRequestData">
+        <xsd:annotation/>
+    </xsd:element>
+    <xsd:element name="deezerAPI__JSON_HTTP_transactionResponse">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="response" type="helloWorld_ns:deezerAPI__JSON_HTTP_transactionResponseData"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="deezerAPI__JSON_HTTP_transactionResponseType">
+        <xsd:sequence>
+            <xsd:element name="document" type="helloWorld_ns:deezerAPI__JSON_HTTP_transactionResponseData"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI__JSON_HTTP_transactionRequestData">
+        <xsd:sequence/>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_address_cityType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_address_geo_latType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_address_geo_lngType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_address_geoType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="lat" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_address_geo_latType"/>
+            <xsd:element minOccurs="0" name="lng" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_address_geo_lngType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_address_streetType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_address_suiteType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_address_zipcodeType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_addressType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="city" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_address_cityType"/>
+            <xsd:element minOccurs="0" name="geo" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_address_geoType"/>
+            <xsd:element minOccurs="0" name="street" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_address_streetType"/>
+            <xsd:element minOccurs="0" name="suite" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_address_suiteType"/>
+            <xsd:element minOccurs="0" name="zipcode" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_address_zipcodeType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_company_bsType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_company_catchPhraseType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_company_nameType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_companyType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="bs" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_company_bsType"/>
+            <xsd:element minOccurs="0" name="catchPhrase" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_company_catchPhraseType"/>
+            <xsd:element minOccurs="0" name="name" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_company_nameType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_emailType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_idType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_nameType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_phoneType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_usernameType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_object_websiteType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_array_objectType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="address" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_addressType"/>
+            <xsd:element minOccurs="0" name="company" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_companyType"/>
+            <xsd:element minOccurs="0" name="email" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_emailType"/>
+            <xsd:element minOccurs="0" name="id" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_idType"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="name" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_nameType"/>
+            <xsd:element minOccurs="0" name="phone" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_phoneType"/>
+            <xsd:element minOccurs="0" name="username" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_usernameType"/>
+            <xsd:element minOccurs="0" name="website" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_object_websiteType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI_JSON_HTTP_transaction_document_arrayType">
+        <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="object" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_array_objectType"/>
+        </xsd:sequence>
+        <xsd:attribute name="length" type="xsd:byte"/>
+        <xsd:attribute default="array" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="deezerAPI__JSON_HTTP_transactionResponseData">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="array" type="helloWorld_ns:deezerAPI_JSON_HTTP_transaction_document_arrayType"/>
+            <xsd:element minOccurs="0" name="error" type="helloWorld_ns:ConvertigoError"/>
+        </xsd:sequence>
+        <xsd:attribute name="connector" type="xsd:string"/>
+        <xsd:attribute name="context" type="xsd:string"/>
+        <xsd:attribute name="contextId" type="xsd:string"/>
+        <xsd:attribute name="fromStub" type="xsd:boolean"/>
+        <xsd:attribute name="fromcache" type="xsd:boolean"/>
+        <xsd:attribute name="generated" type="xsd:string"/>
+        <xsd:attribute name="project" type="xsd:string"/>
+        <xsd:attribute name="sequence" type="xsd:string"/>
+        <xsd:attribute name="signature" type="xsd:long"/>
+        <xsd:attribute name="transaction" type="xsd:string"/>
+        <xsd:attribute name="version" type="xsd:string"/>
+        <xsd:attribute name="screenclass" type="xsd:string"/>
+        <xsd:attribute name="userReference" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="ConvertigoErrorContextVariable">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="value" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="ConvertigoErrorContext">
+        <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="variable" type="helloWorld_ns:ConvertigoErrorContextVariable"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="ConvertigoError">
+        <xsd:sequence minOccurs="0">
+            <xsd:element name="code" type="xsd:integer"/>
+            <xsd:element name="message" type="xsd:string"/>
+            <xsd:element name="details" type="xsd:string"/>
+            <xsd:element name="context" type="helloWorld_ns:ConvertigoErrorContext"/>
+            <xsd:element name="exception" type="xsd:string"/>
+            <xsd:element name="stacktrace" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="project" type="xsd:string"/>
+        <xsd:attribute name="connector" type="xsd:string"/>
+        <xsd:attribute name="transaction" type="xsd:string"/>
+        <xsd:attribute name="sequence" type="xsd:string"/>
+        <xsd:attribute name="type">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="c8o"/>
+                    <xsd:enumeration value="project"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+</xsd:schema>
